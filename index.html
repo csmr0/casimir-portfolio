@@ -1,212 +1,643 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CASIMIR | Portfolio</title>
 
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png">
-    <link rel="icon" href="/favicon/favicon.ico">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
+    <!-- ========================= -->
+    <!-- LOADING SCREEN -->
+    <!-- ========================= -->
 
-        <div class="logo">
-            <span class="dot"></span>
-            CASIMIR
+  <!----  <div id="loader">
+
+        <div class="loader-circle"></div>
+
+        <h2>Loading Portfolio</h2>
+
+    </div>  ------>
+
+
+
+    <!-- ========================= -->
+    <!-- SCROLL BAR -->
+    <!-- ========================= -->
+
+    <div id="progress-bar"></div>
+
+
+
+    <!-- ========================= -->
+    <!-- CUSTOM CURSOR -->
+    <!-- ========================= -->
+
+    <div class="cursor"></div>
+
+
+
+    <!-- ========================= -->
+    <!-- GRID BACKGROUND -->
+    <!-- ========================= -->
+
+    <div class="grid-background"></div>
+
+
+
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+
+                <span class="status-dot"></span>
+
+                CASIMIR
+
+            </div>
+
+            <ul>
+
+                <li><a href="#hero">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+
+    <section id="hero">
+
+        <div class="hero-content">
+
+            <span class="section-number">
+                [01]
+            </span>
+
+            <p class="hero-intro">
+                HELLO, I'M
+            </p>
+
+            <h1>
+
+                Orlando
+
+            </h1>
+
+            <h2>
+
+                Computer Science Student
+
+                <span>&</span>
+
+                Passionate of Technologies
+
+            </h2>
+
+            <p class="hero-description">
+
+                Computer Science Undergraduate | Networking Technologies and Cybersecurity Passionate
+
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-btn">
+
+                    Explore Work
+
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
         </div>
 
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
 
-    </nav>
-</header>
+        <div class="hero-side">
 
+            <div class="circle"></div>
 
-<main>
+            <div class="online">
 
-<section id="hero" class="hero">
+                <span></span>
 
-    <small>[01]</small>
+                AVAILABLE FOR WORK
 
-    <h1>
-        Hi, I'm <span>Orlando</span>
-    </h1>
+            </div>
 
-    <h2>
-        Creative Developer
-    </h2>
+        </div>
+        <div class="scroll-indicator">
 
-    <p>
-        Designing and developing clean digital experiences with simplicity,
-        performance, and attention to detail.
-    </p>
+         <span>SCROLL</span>
 
-    <div class="buttons">
-        <a href="#projects" class="btn primary">Projects</a>
-        <a href="#contact" class="btn secondary">Contact</a>
-    </div>
+        <div class="scroll-line"></div>
 
-</section>
+</div>
+
+        
+
+    </section>
 
 
-<section id="about">
 
-    <small>[02]</small>
+    <!-- ========================= -->
+    <!-- ABOUT -->
+    <!-- ========================= -->
 
-    <h2>About</h2>
+    <section id="about">
 
-    <div class="content">
+        <span class="section-number">
 
-        <p>
-            I'm a developer passionate about building intuitive digital
-            experiences using modern technologies. I enjoy creating elegant
-            interfaces that combine aesthetics with functionality.
-        </p>
+            [02]
 
-        <p>
-            Based in Mauritius.
-        </p>
+        </span>
 
-    </div>
+        <h2>
 
-</section>
+            About Me
 
+        </h2>
+
+        <div class="about-grid">
+
+            <div>
+
+                <p>
+
+                    I'm passionate about crafting clean interfaces and
+                    scalable digital products with simplicity at their core.
+
+                </p>
+                <p>
+
+                    Every project focuses on user experience,
+                    performance, accessibility, and thoughtful design.
+
+                </p>
+                <p>
+
+                    I design and build elegant digital experiences that blend
+                    minimal aesthetics with high-performance web technologies.
+
+                </p>
+                <p>
+
+                    My obstination of learning mechanisms behind every processes and algorithms
+                    makes me very effective at various tasks.
+
+                </p> 
+
+                <p>
+
+                    With several years of experience spanning diverse industries,
+                    I have developed strong skill sets and deep understanding of various roles while also being able to put knowledge to practice. 
+
+                </p>
+
+            </div>
+
+            <div class="about-details">
+
+                <div>
+
+                    <h3>Location</h3>
+
+                    <p>Terre Rouge, Mauritius</p>
+
+                </div>
+
+                <div>
+
+                    <h3>Experience</h3>
+
+                    <p>2+ Years</p>
+
+                </div>
+
+                <div>
+
+                    <h3>Freelance</h3>
+
+                    <p>Available</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- PROJECTS -->
+    <!-- ========================= -->
 
 <section id="projects">
 
-    <small>[03]</small>
+    <span class="section-number">[03]</span>
 
-    <h2>Projects</h2>
+    <h2>Selected Work</h2>
 
-    <div class="projects-grid">
-
-        <article class="card">
-            <h3>Invoicing API</h3>
-            <p>An invoicing and analytics system for marketplaces to track customer purchases and view sales insights.</p>
-            <span>HTML • JavaScript • Micronaut</span>
-        </article>
-
-        <article class="card">
-            <h3>Energy-Smart Home</h3>
-            <p>An AI-powered smart home system that tracks real-time energy use and forecasts monthly and annual bills.</p>
-            <span>ACS720 • ESP32 • Blynk</span>
-        </article>
-
-        <article class="card">
-            <h3>Polling System</h3>
-            <p>An interactive quiz and polling platform designed to boost student engagement during class.</p>
-            <span>Next.js • JavaScript • HTML</span>
-        </article>
-
-    </div>
-
-</section>
-
-
-<section id="experience">
-
-    <small>[04]</small>
-
-    <h2>Experience</h2>
-
-    <div class="timeline">
-
-        <div class="item">
-            <h3>2027</h3>
-            <p>Bachelor Degree in COmputer Science with Network Security</p>
-        </div>
-
-        <div class="item">
-            <h3>2024</h3>
-            <p>Higher School Certificate</p>
-        </div>
-
-        <div class="item">
-            <h3>2023</h3>
-            <p>IT Intern</p>
-        </div>
-
-        <div class="item">
-            <h3>2021</h3>
-            <p>School Certificate</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="skills">
-
-    <small>[05]</small>
-
-    <h2>Skills</h2>
-
-    <div class="skills">
-
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Next.js</span>
-        <span>Node.js</span>
-        <span>Figma</span>
-        <span>Git</span>
-        <span>OS Administration</span>
-        <span>IoT application</span>
-        <span>Machine Learning</span>
-        <span>AI Fundamentals</span>
-        <span>Java</span>
-        <span>Python</span>
-        <span>C++</span>
-        <span>Flutter</span>
-        <span>Networking</span>
-        <span>Project Management</span>
-        <span>SQL</span>
-        <span>Cryptography</span>
-        <span>Cyber Security</span>
-        
-
-    </div>
-
-</section>
-
-
-<section id="contact">
-
-    <small>[06]</small>
-
-    <h2>Let's work together.</h2>
-
-    <p>
-        orlando@casimir.cc
+    <p class="projects-intro">
+        A selection of projects focused on clean interfaces,
+        thoughtful interactions and high-performance experiences.
     </p>
 
+    <!-- PROJECT 01 -->
+
+    <article class="showcase">
+
+        <div class="showcase-image">
+
+            <img src="assets/images/picture1.jpg" alt="Portfolio">
+
+            <div class="floating-tag">
+                HTML • CSS • JavaScript
+            </div>
+
+        </div>
+
+        <div class="showcase-content">
+
+            <span>01</span>
+
+            <h3>Invoicing API</h3>
+
+            <p>
+                An invoicing and analytics system for marketplaces to track customer purchases and view sales insights
+            </p>
+
+            <a href="https://github.com/Julio-Esp/hardware-store-invoicing">
+                View Project →
+            </a>
+
+        </div>
+
+    </article>
+
+    <!-- PROJECT 02 -->
+
+    <article class="showcase reverse">
+
+        <div class="showcase-image">
+
+            <img src="assets/images/picture1.jpg" alt="Dashboard">
+
+            <div class="floating-tag">
+                React • Next.js
+            </div>
+
+        </div>
+
+        <div class="showcase-content">
+
+            <span>02</span>
+
+            <h3>Energy-Smart Home</h3>
+
+            <p>
+                Analytics dashboard with real-time data,
+                authentication and beautiful UI components.
+            </p>
+
+            <a href="Blynk.com">
+                View Project →
+            </a>
+
+        </div>
+
+    </article>
+
 </section>
 
-</main>
+
+
+    <!-- ========================= -->
+    <!-- EXPERIENCE -->
+    <!-- ========================= -->
+
+    <section id="experience">
+
+        <span class="section-number">
+
+            [04]
+
+        </span>
+
+        <h2>
+
+            Experience
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <span>2027</span>
+
+                <div>
+
+                    <h3>
+
+                        Bachelor Degree in Computer Science with Networking Security
+
+                    </h3>
+
+                    <p>
+
+                        University of Technology, Mauritius
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>2024</span>
+
+                <div>
+
+                    <h3>
+
+                        Salesman
+
+                    </h3>
+
+                    <p>
+
+                        Total Shop
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>2024</span>
+
+                <div>
+
+                    <h3>
+
+                        Higher School Certificate
+
+                    </h3>
+
+                    <p>
+
+                        Rank 3rd at National level in IT
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="timeline-item">
+
+                <span>2023</span>
+
+                <div>
+
+                    <h3>
+
+                        IT Intern
+
+                    </h3>
+
+                    <p>
+
+                        Central Electricity Board (CEB)
+
+                    </p>
+
+                </div>
+
+            </div>
+                    <div class="timeline-item">
+
+                <span>2021</span>
+
+                <div>
+
+                    <h3>
+
+                        School Certificate
+
+                    </h3>
+
+                    <p>
+
+                        Awarded Best Performing Student
+
+                    </p>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- SKILLS -->
+    <!-- ========================= -->
+
+    <section id="skills">
+
+        <span class="section-number">
+
+            [05]
+
+        </span>
+
+        <h2>
+
+            Skills
+
+        </h2>
+
+        <div class="skills-grid">
+
+            <span>HTML</span>
+
+            <span>CSS</span>
+
+            <span>JavaScript</span>
+
+            <span>React</span>
+
+            <span>Next.js</span>
+
+            <span>Node.js</span>
+
+            <span>Figma</span>
+
+            <span>Git</span>
+
+            <span>UI/UX</span>
+
+            <span>Cyber Security</span>
+
+            <span>Cryptography</span>
+
+            <span>SQL</span>
+
+            <span>Project Management</span>
+
+            <span>Networking</span>
+
+            <span>Flutter</span>
+
+            <span>C++</span>
+
+            <span>Python</span>
+
+            <span>Java</span>
+
+            <span>AI Fundamentals</span>
+
+            <span>Machine Learning</span>
+
+            <span>IoT Application</span>
+
+            <span>OS Administration</span>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- CONTACT -->
+    <!-- ========================= -->
+
+    <section id="contact">
+
+        <span class="section-number">
+
+            [06]
+
+        </span>
+
+        <h2>
+
+            Let's Build Something Great.
+
+        </h2>
+
+        <p>
+
+            Whether you have a project, an idea, or simply want to connect,
+            I'd love to hear from you.
+
+        </p>
+
+        <a href="mailto:orlando@casimir.cc" class="primary-btn">
+
+            Get In Touch
+
+        </a>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer>
+
+        <div>
+
+            © 2026 CASIMIR Orlando
+
+        </div>
+
+        <div>
+
+            Built with HTML, CSS & JavaScript.
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+    <script src="js/cursor.js"></script>
+
+    <script src="js/scroll.js"></script>
+
+    <script src="js/animations.js"></script>
 
 </body>
+
 </html>
