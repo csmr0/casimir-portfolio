@@ -27,6 +27,31 @@
 
 /*====================================================*/
 
+.resume-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+  color: #000000; /* Change to your exact dark color if needed */
+  text-decoration: none;
+  font-weight: 700; /* Makes it a bold letter style */
+  font-family: sans-serif; /* Replace with your site's font */
+  font-size: 16px;
+  padding: 8px 0;
+  transition: opacity 0.2s ease;
+}
+
+/* Subtly fades the whole link on hover instead of color shifting */
+.resume-text-link:hover {
+  opacity: 0.7;
+}
+
+/* Styles the icon size to match the text height naturally */
+.download-icon {
+  width: 18px;
+  height: 18px;
+}
+
+
 *{
     margin:0;
     padding:0;
