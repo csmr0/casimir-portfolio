@@ -51,6 +51,12 @@
   height: 18px;
 }
 
+/* This guarantees the rule hits the icon inside your resume link */
+a.resume-text-link svg {
+  width: 16px !important;
+  height: 16px !important;
+}
+
 
 *{
     margin:0;
